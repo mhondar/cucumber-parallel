@@ -1,0 +1,77 @@
+[
+  {
+    "uri": "features/AOL_Home_Page.feature",
+    "id": "aol-home-page",
+    "keyword": "Feature",
+    "name": "AOL Home Page",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "aol-home-page;aol-home-page",
+        "keyword": "Scenario",
+        "name": "AOL Home Page",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/Capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/Capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on AOL home Page",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/google_steps.rb:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11441712000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"AOL\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/google_steps.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72080000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/Capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58106000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

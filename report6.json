@@ -1,0 +1,80 @@
+[
+  {
+    "uri": "features/BBC_Home_Page.feature",
+    "id": "bbc-home-page",
+    "keyword": "Feature",
+    "name": "BBC Home Page",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "bbc-home-page;bbc-home-page",
+        "keyword": "Scenario",
+        "name": "BBC Home Page",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/Capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/Capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the BBC home page",
+            "line": 5,
+            "output": [
+              ""
+            ],
+            "match": {
+              "location": "features/step_definitions/google_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11012378000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"BBC\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/google_steps.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1086904000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/Capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65238000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

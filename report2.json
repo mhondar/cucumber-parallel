@@ -1,0 +1,92 @@
+[
+  {
+    "uri": "features/home_page.feature",
+    "id": "google-search-to-explore-poltergiest",
+    "keyword": "Feature",
+    "name": "Google Search to explore poltergiest",
+    "description": "  In order to expolre poltergeist functionality\n  As a capybara and poltergeist user\n  I want to see the if it works on Google search page ",
+    "line": 2,
+    "elements": [
+      {
+        "id": "google-search-to-explore-poltergiest;view-home-page",
+        "keyword": "Scenario",
+        "name": "View home page",
+        "description": "",
+        "line": 8,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/Capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/Capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the Google home page",
+            "line": 9,
+            "output": [
+              ""
+            ],
+            "match": {
+              "location": "features/step_definitions/google_steps.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8183244000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I fill in \"q\" with \"shashi\"",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/google_steps.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108357000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see \"Google\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/google_steps.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113092000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/Capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87633000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
